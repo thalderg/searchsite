@@ -1,0 +1,54 @@
+[2018-10-24T11:55:56,619][INFO ][o.e.x.m.j.p.NativeController] Native controller process has stopped - no new native processes can be started
+[2018-10-24T11:55:56,623][INFO ][o.e.n.Node               ] [B62EfLK] stopping ...
+[2018-10-24T11:55:56,651][INFO ][o.e.x.w.WatcherService   ] [B62EfLK] stopping watch service, reason [shutdown initiated]
+[2018-10-24T11:55:57,004][INFO ][o.e.n.Node               ] [B62EfLK] stopped
+[2018-10-24T11:55:57,004][INFO ][o.e.n.Node               ] [B62EfLK] closing ...
+[2018-10-24T11:55:57,027][INFO ][o.e.n.Node               ] [B62EfLK] closed
+[2018-10-24T12:04:24,688][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-10-24T12:04:24,794][INFO ][o.e.e.NodeEnvironment    ] [B62EfLK] using [1] data paths, mounts [[/ (/dev/sda1)]], net usable_space [90.5gb], net total_space [229.1gb], types [ext4]
+[2018-10-24T12:04:24,795][INFO ][o.e.e.NodeEnvironment    ] [B62EfLK] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-10-24T12:04:24,839][INFO ][o.e.n.Node               ] [B62EfLK] node name derived from node ID [B62EfLK6QD-U4YBBzPmUTg]; set [node.name] to override
+[2018-10-24T12:04:24,840][INFO ][o.e.n.Node               ] [B62EfLK] version[6.3.0], pid[27460], build[default/tar/424e937/2018-06-11T23:38:03.357887Z], OS[Linux/4.15.0-36-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_191/25.191-b12]
+[2018-10-24T12:04:24,841][INFO ][o.e.n.Node               ] [B62EfLK] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/tmp/elasticsearch.3eb2JW6B, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=data, -XX:ErrorFile=logs/hs_err_pid%p.log, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/home/giopag81/Desktop/djangoTutorial/searchsite/esearch/elasticsearch-6.3.0, -Des.path.conf=/home/giopag81/Desktop/djangoTutorial/searchsite/esearch/elasticsearch-6.3.0/config, -Des.distribution.flavor=default, -Des.distribution.type=tar]
+[2018-10-24T12:04:28,618][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [aggs-matrix-stats]
+[2018-10-24T12:04:28,619][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [analysis-common]
+[2018-10-24T12:04:28,619][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [ingest-common]
+[2018-10-24T12:04:28,619][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [lang-expression]
+[2018-10-24T12:04:28,619][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [lang-mustache]
+[2018-10-24T12:04:28,619][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [lang-painless]
+[2018-10-24T12:04:28,620][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [mapper-extras]
+[2018-10-24T12:04:28,620][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [parent-join]
+[2018-10-24T12:04:28,620][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [percolator]
+[2018-10-24T12:04:28,620][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [rank-eval]
+[2018-10-24T12:04:28,620][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [reindex]
+[2018-10-24T12:04:28,621][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [repository-url]
+[2018-10-24T12:04:28,621][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [transport-netty4]
+[2018-10-24T12:04:28,621][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [tribe]
+[2018-10-24T12:04:28,621][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-core]
+[2018-10-24T12:04:28,622][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-deprecation]
+[2018-10-24T12:04:28,622][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-graph]
+[2018-10-24T12:04:28,622][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-logstash]
+[2018-10-24T12:04:28,622][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-ml]
+[2018-10-24T12:04:28,622][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-monitoring]
+[2018-10-24T12:04:28,623][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-rollup]
+[2018-10-24T12:04:28,623][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-security]
+[2018-10-24T12:04:28,623][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-sql]
+[2018-10-24T12:04:28,623][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-upgrade]
+[2018-10-24T12:04:28,623][INFO ][o.e.p.PluginsService     ] [B62EfLK] loaded module [x-pack-watcher]
+[2018-10-24T12:04:28,624][INFO ][o.e.p.PluginsService     ] [B62EfLK] no plugins loaded
+[2018-10-24T12:04:35,272][INFO ][o.e.x.s.a.s.FileRolesStore] [B62EfLK] parsed [0] roles from file [/home/giopag81/Desktop/djangoTutorial/searchsite/esearch/elasticsearch-6.3.0/config/roles.yml]
+[2018-10-24T12:04:36,228][INFO ][o.e.x.m.j.p.l.CppLogMessageHandler] [controller/27522] [Main.cc@109] controller (64 bit): Version 6.3.0 (Build 0f0a34c67965d7) Copyright (c) 2018 Elasticsearch BV
+[2018-10-24T12:04:37,174][DEBUG][o.e.a.ActionModule       ] Using REST wrapper from plugin org.elasticsearch.xpack.security.Security
+[2018-10-24T12:04:37,819][INFO ][o.e.d.DiscoveryModule    ] [B62EfLK] using discovery type [zen]
+[2018-10-24T12:04:39,589][INFO ][o.e.n.Node               ] [B62EfLK] initialized
+[2018-10-24T12:04:39,590][INFO ][o.e.n.Node               ] [B62EfLK] starting ...
+[2018-10-24T12:04:39,821][INFO ][o.e.t.TransportService   ] [B62EfLK] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-10-24T12:04:39,888][WARN ][o.e.b.BootstrapChecks    ] [B62EfLK] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2018-10-24T12:04:42,970][INFO ][o.e.c.s.MasterService    ] [B62EfLK] zen-disco-elected-as-master ([0] nodes joined)[, ], reason: new_master {B62EfLK}{B62EfLK6QD-U4YBBzPmUTg}{i_X5bUF-RUS_QwsSstSHdA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8211210240, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}
+[2018-10-24T12:04:42,978][INFO ][o.e.c.s.ClusterApplierService] [B62EfLK] new_master {B62EfLK}{B62EfLK6QD-U4YBBzPmUTg}{i_X5bUF-RUS_QwsSstSHdA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8211210240, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true}, reason: apply cluster state (from master [master {B62EfLK}{B62EfLK6QD-U4YBBzPmUTg}{i_X5bUF-RUS_QwsSstSHdA}{127.0.0.1}{127.0.0.1:9300}{ml.machine_memory=8211210240, xpack.installed=true, ml.max_open_jobs=20, ml.enabled=true} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)[, ]]])
+[2018-10-24T12:04:43,028][INFO ][o.e.x.s.t.n.SecurityNetty4HttpServerTransport] [B62EfLK] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-10-24T12:04:43,029][INFO ][o.e.n.Node               ] [B62EfLK] started
+[2018-10-24T12:04:43,811][WARN ][o.e.x.s.a.s.m.NativeRoleMappingStore] [B62EfLK] Failed to clear cache for realms [[]]
+[2018-10-24T12:04:43,863][INFO ][o.e.l.LicenseService     ] [B62EfLK] license [5f60576f-33cf-43d9-b71b-e74d2b465cfd] mode [basic] - valid
+[2018-10-24T12:04:43,883][INFO ][o.e.g.GatewayService     ] [B62EfLK] recovered [2] indices into cluster_state
+[2018-10-24T12:04:45,117][INFO ][o.e.c.r.a.AllocationService] [B62EfLK] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[shakespeare][0]] ...]).
