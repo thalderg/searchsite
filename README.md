@@ -9,5 +9,5 @@ $ pip install elasticsearch
 $ pip install elasticsearch-dsl  
 
 more details on:  
-http://myitpie.com/how-to-create-a-django-search-only-app-for-elasticsearch-part-1/ 
+http://myitpie.com/how-to-create-a-django-search-only-app-for-elasticsearch-part-1/
 http://myitpie.com/how-to-create-a-django-search-only-app-for-elasticsearch-part-2/ 
