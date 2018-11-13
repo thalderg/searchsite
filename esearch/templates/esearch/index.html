@@ -21,7 +21,7 @@
 
 {% if results %}
       <div class="txtCentrado margenSup20 grisDC">
-          <h3>We found {{ count }} result/s for your search </h3>
+          <h3>We found {{ count }} result {{ count|pluralize }} for your search </h3>
            </div>
                <div class="search results">
                    {% for mytuple in results %}
