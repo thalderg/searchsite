@@ -8,10 +8,8 @@ def esearch(firstname="", gender=""):
 	q = Q("bool", should=[Q("match", firstname=firstname), 
 	Q("match", gender=gender)], minimum_should_match=1)
 	s = Search(using=client, index="bank").query(q)[0:20]
-	#total = s.count()
-	#print(total)
 	response = s.execute()
-	print("%d hits found." % response.hits.total)
+	#print("%d hits found." % response.hits.total)
 	search = get_results(response)
 	return search
 
@@ -23,7 +21,7 @@ def get_results(response):
 		results.append(result_tuple)
 	return results
 
-
+# to test the search on the "bank index"
 if __name__ == '__main__':
     print("Opal guy details:\n", esearch(firstname = "opal"))
     print("the first 20 f gender details:\n", esearch(gender = "f"))	
